@@ -21,11 +21,11 @@ a:hover {
   border-radius: 24px;
 }
 
-.orange {
-  color: orange !important;
+.theme {
+  color: #ad48c8 !important;
 }
 .icons {
-  color: orange;
+  color: #ad48c8;
 
   padding: 5px;
   margin-left: 15px;
@@ -33,4 +33,149 @@ a:hover {
 }
 .material-icons {
   font-size: 28px;
+}
+.inputField {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+.inputField:focus {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+.submit {
+  display: block;
+  background: #ad48c8;
+  border-color: #ad48c8;
+  color: #212121;
+  width: 180px;
+  height: 40px;
+  font-weight: 800;
+  margin: 30px auto;
+  border-radius: 24px;
+}
+.submit:hover {
+  background: #ad48c8;
+  border-color: #ad48c8;
+  color: #212121;
+  font-weight: 800;
+  text-decoration: none;
+}
+::placeholder {
+  color: white !important;
+}
+.curve {
+  border-radius: 15px;
+}
+
+.category {
+  background: #333333;
+  width: 100%;
+  border: none;
+}
+.upload {
+  background: #333333;
+  border: none;
+  width: 120px;
+  height: 100px;
+}
+.backup_outlined {
+  font-size: 50px !important;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 45px;
+}
+.lab {
+  display: inline;
+  color: white;
+}
+
+.head {
+  margin-top: 30px;
+  background: #333333;
+  border-radius: 18px;
+  padding: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.descrip {
+  color: white;
+  margin-top: 30px;
+  width: 90%;
+  text-align: justify;
+}
+.cat {
+  background: #333333;
+  border-radius: 18px;
+  text-align: center;
+  vertical-align: middle;
+
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+p {
+  margin-bottom: 0;
+}
+.line {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  display: flex;
+  width: 70%;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: #333333;
+  border-radius: 24px;
+}
+.icon {
+  display: inline;
+}
+.desc {
+  display: inline;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.viewButton {
+  display: inline;
+  float: right;
+  background-color: #fa743f;
+  color: white;
+  border: none;
+}
+
+.viewButton:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.project {
+  margin: 10px auto;
+
+  align-items: center;
+}
+
+.uploadPhoto {
+  font-size: 100px !important;
+  color: #ad48c8;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-left: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -180px;
+}
+.uploadDP {
+  background: #333333;
+  border: none;
+  height: 140px;
+  padding: 5px;
 }
