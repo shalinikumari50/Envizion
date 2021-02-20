@@ -1,0 +1,36 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.searchBar {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+}
+
+.orange {
+  color: orange !important;
+}
+.icons {
+  color: orange;
+
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.material-icons {
+  font-size: 28px;
+}
