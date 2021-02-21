@@ -179,3 +179,16 @@ p {
   height: 140px;
   padding: 5px;
 }
+
+.topSection {
+  position: relative;
+}
+
+.topSection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: white;
+}
