@@ -138,6 +138,18 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+.withoutBack .box {
+  display: flex;
+
+  border-bottom: 1px solid grey;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: transparent;
+  border-radius: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .icon {
   display: inline;
 }
@@ -218,4 +230,21 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
+}
+.flexButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ad48c8;
+}
+
+.thumb_up {
+  margin-right: 20px;
 }
