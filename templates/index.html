@@ -30,7 +30,6 @@
 
         <div class="row mt-5">
             <div class="col-md-5 my-auto mx-auto">
-
                 <button type="button" class="btn btn-primary twitter">Continue
                     with Twitter</button>
                 <button type="button" class="btn btn-secondary google">Continue with Google</button>
@@ -38,7 +37,8 @@
             </div>
             <div class="col-md-7 ">
                 <div class="signin">
-                    <h4 class="heading">Sign In</h4>
+                    <h4 class="heading" style="display:inline-block">Sign In</h4>
+                    <h5 style="display:inline-block; color:red;">- {{ message }}</h5>
                     <form action="/login" method="post">
                         <div class="form-group">
 

@@ -103,7 +103,11 @@ def logout():
 
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    try:
+        print(session['user'])
+        return render_template('home.html')
+    except KeyError:
+        return redirect(url_for('login'))
 
 # @app.route('/index')
 # def index():
@@ -111,19 +115,35 @@ def home():
 
 @app.route('/post')
 def post():
-    return render_template('post.html')
+    try:
+        print(session['user'])
+        return render_template('post.html')
+    except KeyError:
+        return redirect(url_for('login'))
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html')
+    try:
+        print(session['user'])
+        return render_template('profile.html')
+    except KeyError:
+        return redirect(url_for('login'))
 
 @app.route('/shop')
 def shop():
-    return render_template('shop.html')
+    try:
+        print(session['user'])
+        return render_template('shop.html')
+    except KeyError:
+        return redirect(url_for('login'))
 
 @app.route('/askforhelp')
 def askforhelp():
-    return render_template('askforhelp.html')
+    try:
+        print(session['user'])
+        return render_template('askforhelp.html')
+    except KeyError:
+        return redirect(url_for('login'))
 
 if __name__ == '__main__':
     app.run(debug=False,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
