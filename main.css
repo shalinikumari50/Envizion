@@ -248,3 +248,14 @@ p {
 .thumb_up {
   margin-right: 20px;
 }
+.tagline {
+  color: white;
+  text-align: center;
+  display: block;
+  background-color: #3a3a3a;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.curve {
+  overflow: hidden;
+}
