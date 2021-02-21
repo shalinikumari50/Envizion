@@ -129,12 +129,14 @@ p {
 
 .box {
   display: flex;
-  width: 70%;
+
   border: none;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px 30px;
   background-color: #333333;
   border-radius: 24px;
+  align-items: center;
+  justify-content: space-between;
 }
 .icon {
   display: inline;
@@ -182,6 +184,8 @@ p {
 
 .topSection {
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .topSection p {
@@ -191,4 +195,13 @@ p {
   transform: translate(-50%, -50%);
   z-index: 10;
   color: white;
+}
+
+.greyDiv {
+  background-color: grey;
+  padding: 2px auto;
+  text-align: center;
+  border-radius: 5px;
+
+  font-weight: 800;
 }
